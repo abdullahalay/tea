@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea house</title>
+    
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c8c5d5b923.js" crossorigin="anonymous"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-manrope{
+        font-family: "Manrope", sans-serif; 
+        
+    }
+</style>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto mt-10">
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div>
+               
+                <img
+                src="images/banner.png"
+                class="max-w-md " />
+                <div class=" -mt-24 flex text-3xl text-amber-400 items-center gap-4 drop-shadow-lg bg-white p-5 w-60 h-30">
+                    <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                    <div class="">
+                        <h3 class="3xl">5.0</h3>
+                        <p>trust pilot rating</p>
+
+                    </div>
+                </div>
+              </div>
+              <div>
+                <h1 class="text-7xl font-extrabold">It's good <br> tea time at the <br> Tea House
+                </h1>
+                <p class="py-6">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+
+    </header>
+    <main>
+        <section class="text-center my-24">
+            <h2 class="text-5xl font-extrabold mb-5">Our featured products</h2>
+            <p class="lg:max-w-3xl mx-auto mb-24">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima tenetur ea! Officiis necessitatibus perferendis delectus quaerat adipisci dignissimos placeat.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-20">
+                <div class="card bg-base-100  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/tea-1.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Green Tea</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-base-100  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/tea-3.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Milk Tea!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-base-100  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/tea-2.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">lemon Tea</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-base-100  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/tea-4.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">ice Tea</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+            </div>
+
+        </section>
+
+        <section class="my-24 flex flex-col lg:flex-row gap-12">
+            <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
+                <div class="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 ... h-36"></div>
+                <div class="row-span-2 rounded-xl bg-red-300 px-8 py-12 flex justify-center items-center"><img src="images/fresh-1.png" alt=""></div>
+                <div class="row-span-2 rounded-xl bg-slate-400 px-8 py-12 flex justify-center items-center"> <img src="images/fresh-2.png" alt=""></div>
+                <div class="rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... h-36"></div>
+
+            </div>
+
+            <div class="flex-1  space-y-6">
+                <h1 class="text-5xl font-extrabold ">Great Tea,Freshly <br> Presented</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis <br>fugiat sapiente corporis alias totam quo, quis, repellat dolore est, doloribus <br> eum modi pariatur vitae cupiditate vel quibusdam. Impedit, similique numquam.</p>
+                <h2 class="text-3xl font-extrabold mt-8">Unique taste</h2>
+                <p>Lorem ipsum, dolor sit amet <br>
+                     consectetur adipisicing elit. Est, odit.</p>
+                <h2 class="text-3xl font-extrabold mt-6">premium Quality</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Unde provident laudantium iste. Tempore, earum numquam.</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
